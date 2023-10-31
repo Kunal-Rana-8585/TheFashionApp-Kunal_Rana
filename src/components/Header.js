@@ -70,7 +70,7 @@ export default function Header(){
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 5000); // Change slide every 10 seconds
+    }, 15000); // Change slide every 10 seconds
 
     return () => {
       clearInterval(interval); // Clear the interval on component unmount
